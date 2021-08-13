@@ -15,6 +15,8 @@ Going over Python syntax. For me, these were just a review.
 - Validation (Lesson 4)
 ### Day 10:
 - [Underfitting and Overfitting (Lesson 5)](https://www.kaggle.com/dansbecker/underfitting-and-overfitting)
+-- Overfitting: capturing spurious patterns that won't recur in the future, leading to less accurate predictions, or
+-- Underfitting: failing to capture relevant patterns, again leading to less accurate predictions.
 - Random Forests (Lesson 6)
 ### Day 11:
 
