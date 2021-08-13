@@ -18,8 +18,7 @@ Going over Python syntax. For me, these were just a review.
   - Overfitting: capturing spurious patterns that won't recur in the future, leading to less accurate predictions, or
   - Underfitting: failing to capture relevant patterns, again leading to less accurate predictions.
 - [Random Forests (Lesson 6)](https://www.kaggle.com/dansbecker/random-forests?utm_medium=email&utm_source=gamma&utm_campaign=thirty-days-of-ml&utm_content=day-10)
-```
-The random forest uses many trees, and it makes a prediction by averaging the predictions of each component tree. It generally has much better predictive accuracy than a single decision tree and it works well with default parameters. If you keep modeling, you can learn more models with even better performance, but many of those are sensitive to getting the right parameters.
-```
+  "The random forest uses many trees, and it makes a prediction by averaging the predictions of each component tree. It generally has much better predictive accuracy than a single decision tree and it works well with default parameters. If you keep modeling, you can learn more models with even better performance, but many of those are sensitive to getting the right parameters."
+  
 ### Day 11: ML Competitions
 
