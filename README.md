@@ -22,3 +22,5 @@ Going over Python syntax. For me, these were just a review.
   
 ### Day 11: ML Competitions
 
+The course finishes with an optional [intro to AutoML](https://www.kaggle.com/alexisbcook/intro-to-automl). It uses Google's [AutoML Tables](https://cloud.google.com/automl-tables) 
+
