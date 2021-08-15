@@ -31,7 +31,10 @@ The course finishes with an optional [intro to AutoML](https://www.kaggle.com/al
   1. Drop the table with missing values
   2. Imputation: fills in the missing values with some number.
   3. Imputation Extra: Add extra info (feature) about the imputation
-- Lesson 3: [Categorical Variables]()
+- Lesson 3: [Categorical Variables](): Three ways to handle categorical values
+- 1. Drop categorical variables
+- 2. Ordinal encoding: works well with ordinal values - when some kind of ranking is involved
+- 3. One-hot encoding: works well for no clear ordering: i.e., 'nominal values' (variables with no ranking)
 
 ### Day 13 (2021-08-15 Sun)
 - Lesson 4: [Pipelines]
