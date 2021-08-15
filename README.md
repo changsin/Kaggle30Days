@@ -24,7 +24,7 @@ Going over Python syntax. For me, these were just a review.
 The course finishes with an optional [intro to AutoML](https://www.kaggle.com/alexisbcook/intro-to-automl). It uses Google's [AutoML Tables](https://cloud.google.com/automl-tables) 
 
 ## Day 12 - : [Intermediate ML](https://www.kaggle.com/learn/intermediate-machine-learning)
-### Day 12
+### Day 12 (2021-08-14 Sat)
 - Lesson 1: [Introduction](https://www.kaggle.com/alexisbcook/introduction?utm_medium=email&utm_source=gamma&utm_campaign=thirty-days-of-ml&utm_content=day-12)
 - Lesson 2: [Missing Values](https://www.kaggle.com/alexisbcook/missing-values)
   Three ways to handle missing values
@@ -33,6 +33,6 @@ The course finishes with an optional [intro to AutoML](https://www.kaggle.com/al
   3. Imputation Extra: Add extra info (feature) about the imputation
 - Lesson 3: [Categorical Variables]()
 
-### Day 13
+### Day 13 (2021-08-15 Sun)
 - Lesson 4: [Pipelines]
 - Lesson 5: [Cross-Validation]
