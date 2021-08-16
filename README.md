@@ -41,4 +41,13 @@ The course finishes with an optional [intro to AutoML](https://www.kaggle.com/al
 ### Day 13 (2021-08-15 Sun)
 - Lesson 4: [Pipelines] Very useful lesson. You can setup your own pipeline to preprocess the data in the same way.
   With a few tweek on the preprocessing steps, I moved to 3690 in the leaderboard.
-- Lesson 5: [Cross-Validation]
+- Lesson 5: [Cross-Validation] Doing Cross Validation using K Folds is quite easy with sklearn. Just need to call cross_val_score
+
+```
+from sklearn.model_selection import cross_val_score
+
+# Multiply by -1 since sklearn calculates *negative* MAE
+scores = -1 * cross_val_score(my_pipeline, X, y,
+                              cv=5,
+                              scoring='neg_mean_absolute_error')
+```
