@@ -39,5 +39,6 @@ The course finishes with an optional [intro to AutoML](https://www.kaggle.com/al
   The final submission improved the ranking ot 4491 in https://www.kaggle.com/c/home-data-for-ml-course/leaderboard#score
 
 ### Day 13 (2021-08-15 Sun)
-- Lesson 4: [Pipelines]
+- Lesson 4: [Pipelines] Very useful lesson. You can setup your own pipeline to preprocess the data in the same way.
+  With a few tweek on the preprocessing steps, I moved to 3690 in the leaderboard.
 - Lesson 5: [Cross-Validation]
