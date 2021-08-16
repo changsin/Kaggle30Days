@@ -68,3 +68,4 @@ predictions = my_model.predict(X_valid)
 print("Mean Absolute Error: " + str(mean_absolute_error(predictions, y_valid)))
 
 ```
+- Lesson 6: [Data Leakage](https://www.kaggle.com/alexisbcook/data-leakage)
