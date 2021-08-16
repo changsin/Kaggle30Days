@@ -36,7 +36,7 @@ The course finishes with an optional [intro to AutoML](https://www.kaggle.com/al
   2. Ordinal encoding: works well with ordinal values - when some kind of ranking is involved
   3. One-hot encoding: works well for no clear ordering: i.e., 'nominal values' (variables with no ranking)
   Cardinality: the number of unique entries in categorical variables.
-  The final submission improved the ranking ot 4491 in https://kaggle.com/c/home-data-for-ml-course 
+  The final submission improved the ranking ot 4491 in https://www.kaggle.com/c/home-data-for-ml-course/leaderboard#score
 
 ### Day 13 (2021-08-15 Sun)
 - Lesson 4: [Pipelines]
