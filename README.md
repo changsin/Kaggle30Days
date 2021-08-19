@@ -69,3 +69,6 @@ print("Mean Absolute Error: " + str(mean_absolute_error(predictions, y_valid)))
 
 ```
 - Lesson 6: [Data Leakage](https://www.kaggle.com/alexisbcook/data-leakage)
+
+
+## Day 15 - (2021-08-17 Tue) Invitation-only 30 Day Kaggle competition.
