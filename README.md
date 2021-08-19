@@ -86,3 +86,10 @@ The lesson is summarized into:
     Fitting the data (e.g., imputation) before train-test split.
 
 ## Day 15 - (2021-08-17 Tue) Invitation-only 30 Day Kaggle competition.
+Can't share the link but just keeping records on the progress.
+
+### Submission records
+1. Baseline: just ran the startup notebook which does:
+  - Encoded categorical features in ordinal encoding
+  - Used RandomForest model
+  - Ranked 1382
