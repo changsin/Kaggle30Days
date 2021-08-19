@@ -10,7 +10,7 @@ Going over Python syntax. For me, these were just a review.
 ### Day 8:
 - [How models work? (Lesson 1)](https://www.kaggle.com/dansbecker/how-models-work)
 - Basic data exploration - intro to pandas library (Lesson 2)
-### Day 9:
+## Day 9:
 - [Your first ML Model (Lesson 3)](https://www.kaggle.com/dansbecker/your-first-machine-learning-model)
 - Validation (Lesson 4)
 ### Day 10:
@@ -23,8 +23,8 @@ Going over Python syntax. For me, these were just a review.
 ### Day 11: ML Competitions
 The course finishes with an optional [intro to AutoML](https://www.kaggle.com/alexisbcook/intro-to-automl). It uses Google's [AutoML Tables](https://cloud.google.com/automl-tables) 
 
-## Day 12 - : [Intermediate ML](https://www.kaggle.com/learn/intermediate-machine-learning)
-### Day 12 (2021-08-14 Sat)
+## Day 12-14 [Intermediate ML](https://www.kaggle.com/learn/intermediate-machine-learning)
+### Day 12: (2021-08-14 Sat)
 - Lesson 1: [Introduction](https://www.kaggle.com/alexisbcook/introduction?utm_medium=email&utm_source=gamma&utm_campaign=thirty-days-of-ml&utm_content=day-12)
 - Lesson 2: [Missing Values](https://www.kaggle.com/alexisbcook/missing-values)
   Three ways to handle missing values
@@ -39,35 +39,37 @@ The course finishes with an optional [intro to AutoML](https://www.kaggle.com/al
   The final submission improved the ranking ot 4491 in https://www.kaggle.com/c/home-data-for-ml-course/leaderboard#score
 
 ### Day 13 (2021-08-15 Sun)
-- Lesson 4: [Pipelines] Very useful lesson. You can setup your own pipeline to preprocess the data in the same way.
+- Lesson 4: [Pipelines](https://www.kaggle.com/alexisbcook/pipelines) Very useful lesson.
+  You can setup your own pipeline to preprocess the data in the same way.
   With a few tweek on the preprocessing steps, I moved to 3690 in the leaderboard.
-- Lesson 5: [Cross-Validation] Doing Cross Validation using K Folds is quite easy with sklearn. Just need to call cross_val_score
+- Lesson 5: [Cross-Validation](https://www.kaggle.com/alexisbcook/cross-validation)
+  Doing Cross Validation using K Folds is quite easy with sklearn. Just need to call cross_val_score.
 
-```
-from sklearn.model_selection import cross_val_score
+  ```
+  from sklearn.model_selection import cross_val_score
 
-# Multiply by -1 since sklearn calculates *negative* MAE
-scores = -1 * cross_val_score(my_pipeline, X, y,
-                              cv=5,
-                              scoring='neg_mean_absolute_error')
-```
+  # Multiply by -1 since sklearn calculates *negative* MAE
+  scores = -1 * cross_val_score(my_pipeline, X, y,
+                                cv=5,
+                                scoring='neg_mean_absolute_error')
+  ```
 
 ### Day 14 (2021-08-16 Mon)
 - Lesson 6: [XGBoost](https://www.kaggle.com/alexisbcook/xgboost)
 The lesson is summarized into:
-```
-from xgboost import XGBRegressor
-from sklearn.metrics import mean_absolute_error
+  ```
+  from xgboost import XGBRegressor
+  from sklearn.metrics import mean_absolute_error
 
-my_model = XGBRegressor(n_estimators=1000, learning_rate=0.05, n_jobs=4)
-my_model.fit(X_train, y_train, 
-             early_stopping_rounds=5, 
-             eval_set=[(X_valid, y_valid)], 
-             verbose=False)
-predictions = my_model.predict(X_valid)
-print("Mean Absolute Error: " + str(mean_absolute_error(predictions, y_valid)))
+  my_model = XGBRegressor(n_estimators=1000, learning_rate=0.05, n_jobs=4)
+  my_model.fit(X_train, y_train, 
+               early_stopping_rounds=5, 
+               eval_set=[(X_valid, y_valid)], 
+               verbose=False)
+  predictions = my_model.predict(X_valid)
+  print("Mean Absolute Error: " + str(mean_absolute_error(predictions, y_valid)))
 
-```
+  ```
 - Lesson 6: [Data Leakage](https://www.kaggle.com/alexisbcook/data-leakage)
   Two types of data leakage: target leakage and train-test contamination
   
