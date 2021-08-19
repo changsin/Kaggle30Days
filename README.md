@@ -69,6 +69,18 @@ print("Mean Absolute Error: " + str(mean_absolute_error(predictions, y_valid)))
 
 ```
 - Lesson 6: [Data Leakage](https://www.kaggle.com/alexisbcook/data-leakage)
+  Two types of data leakage: target leakage and train-test contamination
+  
+  1. Target leakage: When the training data include information not available at the time of prediction.
 
+    Antibiotic medicine is taken after getting pneumonia, but if these two pieces of information are both present
+    - got_pneumonia	
+    - took_antibiotic_medicine
+    the the predictor might be trained to use took_antibiotic_medicine to predict got_pneumonia values.
+    In prediction times, however, took_antibiotic_medicine is not available.
+    To prevent this type of data leakage, any variable updated (or created) after the target value is realized should be excluded.
+
+  2. Train-Test Contamination: When the validation data affects the preprocessing behavior.
+    Fitting the data (e.g., imputation) before train-test split.
 
 ## Day 15 - (2021-08-17 Tue) Invitation-only 30 Day Kaggle competition.
