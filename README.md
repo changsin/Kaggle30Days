@@ -95,3 +95,6 @@ Can't share the link but just keeping records on the progress.
   - Ranked 1382 (0.72257) - validation score: 0.7375
 
 2. XGBRegressor: 
+
+## Extracurricular workshops
+- [Extracurricular workshops from Google’s Developer Expert Machine Learning Program](https://www.youtube.com/playlist?list=PLqFaTIg4myu9uAPsqXBBZRr8kcj9IvAIf)
